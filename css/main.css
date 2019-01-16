@@ -95,27 +95,32 @@ h1 {
 #about {
     display: inline-block;
     width: 40%;
-    position: relative;
-    left: 10%;
+    position: absolute;
+    left: 50%;
     top: 20%;
+    height: 300px;
 }
 
 .text {
-    margin: 20px;
+    position: absolute;
+    top: 20%;
+    margin: 0;
     font-family: 'Noto Sans TC', sans-serif;
+    line-height: 30px;
 }
 
 #activity {
     display: inline-block;
     position: relative;
     bottom: 0;
+    top: 83%;
     float: right;
 }
 
 #activity {
     color: black;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     padding: 16px 40px;
     text-align: center;
     font-size: 14px;

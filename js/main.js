@@ -2,8 +2,9 @@
 let more_button = document.querySelector('#more');
 
 more_button.addEventListener('click', function(){
-  window.scrollTo({top: 680, behavior: 'smooth'});
+  window.scrollTo({top: 700, behavior: 'smooth'});
 });
+
 
 //activity button to "activity" page
 let act_btn = document.querySelector('#activity');
