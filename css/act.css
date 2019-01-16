@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    background-image: url('../img/wine1.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.65);
+    margin: 0;
+}
+
+.header {
+    z-index: 4;
+    background:rgba(0,0,0,0.9);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.headbtn {
+    display: inline;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black; 
+    outline: 0;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    margin-right: 5%;
+}
+
+.headbtn:hover {
+    background-color: white;
+    color: black;
+    position: relative;
+
+}
+
+.act_title {
+    display: inline-block;
+    font-family: 'Tangerine', cursive;
+    width: 250px;
+    height: 500px;
+    font-size: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.wine {
+    display: inline-block;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+#line {
+    border-left: 3px solid goldenrod;
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.wine_pic {
+    position: absolute;
+    height: 100%;
+    width: 255px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.wine_info {
+    border: 1px solid red;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+}
+
+h3 {
+    color: black;
+    position: absolute;
+}
+
+footer {
+    height: 200px;
+    background: black;
+}

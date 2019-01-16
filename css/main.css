@@ -1,0 +1,148 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    height: 680px;
+    align-content: center;
+}
+
+.wine1 {
+    z-index: 0;
+    height: 100%;
+    background-image: url('../img/wine1.jpg');
+    background-size: 100% 100%;
+}
+
+.darken-overlay div{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.65);
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 35%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.subtitle {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 35%;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+#more {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black; 
+    outline: 0;
+}
+
+#more:hover {
+    background-color: white;
+    color: black;
+}
+
+#more {
+    display: inline-block;
+    position: relative;
+    top: 260px;
+    align-items: 
+    justify-content: center;
+}
+
+.about {
+    height: 660px;
+    background: rgba(0,0,0,0.65);
+}
+
+#content {
+    background: white;
+    height: 80%;
+    width: 90%;
+    position: relative;
+    justify-content: center;
+    top: 10%;
+    left: 5%;
+}
+
+
+#about {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+.text {
+    margin: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#activity {
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    float: right;
+}
+
+#activity {
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    outline: 0;
+}
+
+#activity:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 200px;
+    background: black;
+}
