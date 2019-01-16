@@ -31,7 +31,7 @@ h1 {
     margin: 0;
     padding: 0;
     position: relative;
-    top: 35%;
+    top: 30%;
     font-family: 'Shadows Into Light', cursive;
 }
 
@@ -40,7 +40,7 @@ h1 {
     color: white;
     position: relative;
     text-align: center;
-    top: 35%;
+    top: 30%;
     font-family: 'Shadows Into Light', cursive;
     margin: 0;
     padding: 0;
@@ -71,8 +71,7 @@ h1 {
 #more {
     display: inline-block;
     position: relative;
-    top: 260px;
-    align-items: 
+    top: 230px;
     justify-content: center;
 }
 
