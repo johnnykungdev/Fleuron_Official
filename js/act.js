@@ -92,3 +92,6 @@
       wine_alc.textContent = "酒精濃度：" + wine_info.alc[0];
     }
   });
+
+
+// the fade-in effect 
