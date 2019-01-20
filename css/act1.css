@@ -271,6 +271,35 @@ h2, h3, h4{
     grid-row-end: 3;
 }
 
+#loc_btn {
+    display: block;
+
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding: 14px 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    outline: 0;
+
+    position: absolute;
+    top: 70%;
+    left: 74%;
+}
+
+#loc_btn:hover {
+    background-color: black;
+    color: white;
+}
+
 #text3 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
