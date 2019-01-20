@@ -1,0 +1,416 @@
+@font-face {
+    font-family: GenJyuuGothic-ExtraLight;
+    src: url('../fonts/GenJyuuGothic-ExtraLight.ttf');
+    format: truetype;
+}
+
+html, body {
+    height: 670px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.NavBar {
+    z-index: 4;
+    background:rgba(0,0,0,0.9);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.headbtn {
+    display: inline;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black; 
+    outline: 0;
+    position: relative;
+    top: 8%;
+    left: 72%;
+    margin-right: 5%;
+}
+
+.headbtn:hover {
+    background-color: white;
+    color: black;
+    position: relative;
+
+}
+
+.container1 {
+    display: grid;
+    height: 570px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+
+    grid-template-columns: 3% 40% 54% 3%;
+    grid-template-rows: 5% 90% 5%;
+}
+
+
+#item1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-start: 2;
+
+    -webkit-animation: fade 2s 1 400ms;
+    animation: fade 2s 1 400ms;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+    -o-animation-fill-mode: forwards; 
+    -ms-animation-fill-mode: forwards;   
+    -moz-animation-fill-mode: forwards; 
+
+    opacity: 0;
+}
+
+#text1 {
+    font-family: GenJyuuGothic-ExtraLight;
+    font-size: 22px;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 25%;
+    width: 40%;
+    text-align: center;
+}
+
+.info {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#hr1 {
+    border: 1px solid goldenrod;
+}
+
+#item2 {
+    background-image: url('../img/wine3.jpg');
+    background-size: cover;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-start: 2;
+}
+
+#text1, #item2 {
+    -webkit-animation: fade 2s 1 400ms;
+    animation: fade 2s 1 400ms;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+    -o-animation-fill-mode: forwards; 
+    -ms-animation-fill-mode: forwards;   
+    -moz-animation-fill-mode: forwards; 
+
+    opacity: 0;
+}
+
+#text2 {
+    position: absolute;
+    top: 60%;
+    left: 15.5%;
+}
+
+#act_btn1 {
+    display: block;
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding: 14px 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    outline: 0;
+}
+
+#act_btn1:hover {
+    background-color: black;
+    color: white;
+    position: relative;
+
+}
+
+#act_btn2 {
+    display: block;
+
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding: 14px 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    outline: 0;
+}
+
+#act_btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+#act_btn3 {
+    display: inline-block;
+
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding: 14px 41px;
+    text-align: justify;
+    font-size: 14px;
+    margin: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    outline: 0;
+}
+
+#act_btn3:hover {
+    background-color: black;
+    color: white;
+}
+
+#subitem1 {
+    display: inline-block;
+    font-family: GenJyuuGothic-ExtraLight;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    top: 28%;
+    left: 5%;
+}
+
+.container2 {
+    display: grid;
+    height: 570px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    border-top: 2px solid grey;
+
+    grid-template-columns: 3% 54% 40% 3%;
+    grid-template-rows: 5% 90% 5%;
+}
+
+#item3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 30% 40% 30%;
+
+    background-image: url('../img/woden3.jpg');
+
+}
+
+#subitem2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+    text-align: center;
+    background: rgb(255, 254, 254, 0.7);
+}
+
+#item4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#text3 {
+    font-family: GenJyuuGothic-ExtraLight;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: 15%;
+    left: 30%;
+    width: 50%;
+    text-align: center;
+}
+
+.container3 {
+    display: grid;
+    height: 570px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    border-top: 2px solid grey;
+
+    grid-template-columns: 5% 41% 49% 5%;
+    grid-template-rows: 5% 85% 10%;
+}
+
+#item5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    text-align: center;
+}
+
+#last_btn {
+    display: inline-block;
+
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding: 14px 41px;
+    text-align: justify;
+    font-size: 14px;
+    margin: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    outline: 0;
+
+    float: left;
+    position: relative;
+    top: 43%
+}
+
+#last_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#item6{
+    font-family: GenJyuuGothic-ExtraLight;
+    color: gray;
+    font-size: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.wine_title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#wine_text {
+    width: 70%;
+    margin-left: 0.5%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#next_btn {
+    display: block;
+
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding: 14px 41px;
+    text-align: justify;
+    font-size: 14px;
+    margin: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    outline: 0;
+
+    float: right;
+    position: relative;
+    top: 43%;
+}
+
+#next_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#wine_table {
+    font-size: 18px;
+}
+
+#item7 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: black;
+    color: white;
+    font-family: GenJyuuGothic-ExtraLight;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

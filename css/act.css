@@ -1,5 +1,5 @@
 html, body {
-    height: 100%;
+    height: 670px;
     background-image: url('../img/wine1.jpg');
     background-size: cover;
     margin: 0;
@@ -64,7 +64,7 @@ h1 {
 .act_title {
     display: inline-block;
     font-family: 'Tangerine', cursive;
-    width: 350px;
+    width: 25%;
     height: 500px;
     font-size: 30px;
     border-radius: 25px;
@@ -78,6 +78,7 @@ h1 {
 }
 
 .act_tit {
+    font-size: 80%;
     background: #A6A6A6;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -85,14 +86,32 @@ h1 {
 }
 
 .act_info {
+    position: relative;
+    top: 5%;
     opacity: 0;
-    -webkit-animation: fade 2s 1 4800ms;
-    animation: fade 2s 1 4800ms;
+    -webkit-animation: fade 1s 1 2400ms;
+    animation: fade 1s 1 2400ms;
     animation-fill-mode:forwards;
     -webkit-animation-fill-mode: forwards;  
     -o-animation-fill-mode: forwards; 
     -ms-animation-fill-mode: forwards;   
     -moz-animation-fill-mode: forwards; 
+}
+
+.info_text {
+    margin: 0;
+
+}
+
+#map {
+    -webkit-animation: fade 1s 1 2400ms;
+    animation: fade 1s 1 2400ms;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+    -o-animation-fill-mode: forwards; 
+    -ms-animation-fill-mode: forwards;   
+    -moz-animation-fill-mode: forwards; 
+    opacity: 0;
 }
 
 .wine {
@@ -105,8 +124,8 @@ h1 {
     left: 40%;
     top: 20%;
     opacity: 0;
-    -webkit-animation: fade 2s 1 5600ms;
-    animation: fade 2s 1 5600ms;
+    -webkit-animation: fade 1s 1 2800ms;
+    animation: fade 1s 1 2800ms;
     animation-fill-mode:forwards;
     -webkit-animation-fill-mode: forwards;  
     -o-animation-fill-mode: forwards; 
@@ -248,101 +267,11 @@ footer {
     display: inline;
     opacity: 0;
     position: relative;
-    top: 25%;
+    top: 28%;
     color: white;
 }
 
-
-
-
-.letter:nth-child(1) {
-    -webkit-animation: fade 4s 1 200ms;
-    animation: fade 4s 1 200ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}
-.letter:nth-child(2) {
-    -webkit-animation: fade 4s 1 600ms;
-    animation: fade 4s 1 600ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}
-.letter:nth-child(3) {
-    -webkit-animation: fade 4s 1 1000ms;
-    animation: fade 4s 1 1000ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}
-.letter:nth-child(4) {
-    -webkit-animation: fade 4s 1 1200ms;
-    animation: fade 4s 1 1200ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-    
-    padding-right: 20px;
-}.letter:nth-child(5) {
-    -webkit-animation: fade 4s 1 1600ms;
-    animation: fade 4s 1 1600ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}.letter:nth-child(6) {
-    -webkit-animation: fade 4s 1 2000ms;
-    animation: fade 4s 1 2000ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}.letter:nth-child(7) {
-    -webkit-animation: fade 4s 1 2400ms;
-    animation: fade 4s 1 2400ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}.letter:nth-child(8) {
-    -webkit-animation: fade 4s 1 2800ms;
-    animation: fade 4s 1 2800ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}.letter:nth-child(9) {
-    -webkit-animation: fade 4s 1 3200ms;
-    animation: fade 4s 1 3200ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}
-.letter:nth-child(10) {
-    -webkit-animation: fade 4s 1 3600ms;
-    animation: fade 4s 1 3600ms;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;  
-      -o-animation-fill-mode: forwards; 
-      -ms-animation-fill-mode: forwards;   
-      -moz-animation-fill-mode: forwards; 
-}
-
+*/
 @-webkit-keyframes fade {
     0% {
         opacity: 0;

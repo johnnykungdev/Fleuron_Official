@@ -7,8 +7,11 @@ more_button.addEventListener('click', function(){
 
 
 //activity button to "activity" page
+
+/* 
 let act_btn = document.querySelector('#activity');
 
 act_btn.addEventListener('click', function (){
   location.href="./activity.html";
 })
+*/

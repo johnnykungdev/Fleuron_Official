@@ -95,3 +95,26 @@
 
 
 // the fade-in effect 
+
+const word = document.querySelectorAll('.letter');
+
+console.log(word.length);
+
+function fadeIn (){
+  for (let i = 0; i < word.length; i++){
+    var times = (i + 1) * 200 ;
+
+    console.log(times);
+    
+    word[i].style = `
+    -webkit-animation: fade 0.6s 1 ${times}ms;
+    animation: fade 0.6s 1 ${times}ms;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; `;
+  }
+}
+
+fadeIn();

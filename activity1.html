@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta title="Fleuron Activity">
+        <link rel="stylesheet" text="text/css" href="./css/act1.css" />
+        <link rel="stylesheet" text="text/css" href="/Fleuron_Official/css/act1.css" />
+        <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+        <script type="text/javascript" src="./js/fullpage.js"></script>
+        <title>Fleuron Activity</title>
+    </head>
+    <body>
+        <header>
+            <div class="NavBar">
+                <h1>F l e u r o n</h1>
+                <a href="./index.html"><button class="headbtn" id="index">首 頁</button></a>
+            </div>
+        </header>
+
+        <div id="fullpage">
+            <div class="section" data-anchor="1section">
+                <div class="container1">
+                    <div id="item1">
+                        <div id="text1">
+                            <h3>Wine Dinner</h3>
+                            <hr id="hr1">
+                            <h3 class="info">日期：03/16 18:00</h3>
+                            <h3 class="info">地點：WODEN 肉殿</h3>
+                            <h3 class="info">費用：$ 1,850</h3>
+                        </div>
+                        <div id="text2">
+                            <a href="#2section"><button id="act_btn1">餐廳介紹</button></a>
+                            <a href="#3section"><button id="act_btn2">酒款介紹</button></a>     
+                            <a href="https://goo.gl/forms/KAqRInPOf4i56vq72"><button id="act_btn3">報&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名</button></a>   
+                        </div>
+                    </div>
+
+                    <div id="item2">
+                        <div id="subitem1">
+                            <h3>美好的時光</h3>
+                            <h3>不凡的夜晚</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" data-anchor="2section">
+                <div class="container2">
+                    <div id="item3">
+                        <div id="subitem2">
+                            <img src="../img/woden1.png" style="height: 100%;"/>
+                        </div>
+                    </div>
+
+                    <div id="item4">
+                            <div id="text3">
+                                <h2>WODEN 肉殿</h3>
+                                <hr id="hr2">
+                                <h4>「溫度、濕度、風速」</h3>
+                                <h4>肉殿精選美國安格斯牛</h3>
+                                <h4>成就完美乾式熟成牛排</h3>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" data-anchor="3section">
+                <div class="container3">
+                    <div id="item5">
+                        <button id="last_btn">上一款</button>
+                        <img id="wine_pic" src="../img/Marquis_de_la_Tour_Blanc_Brut.png" style="height: 100%;"/>
+                    </div>
+                    <div id="item6">
+                        <button id="next_btn">下一款</button>
+                        <h2 class="wine_title" id="title_eng" style="color: black;">Marquis de la Tour Brut</h2>
+                        <h2 class="wine_title" id="title_chi" style="color: black;">法國德拉圖爵白中白氣泡酒</h2>
+                        <p id="wine_text">德拉圖厥氣泡酒為法國羅亞爾河最大的氣泡酒廠Ackerman旗下的品牌，Ackerman於19世紀初創立，在莊主的努力下目前銷售遍佈全球。此酒沿襲傳統香檳的二次發酵釀制法，輔以精準的溫度控制，使其擁有優雅細緻的氣泡、迷人的果香與尾韻。</p>
+                        <table id="wine_table">
+                            <tr>
+                                <th>產&emsp;&emsp;地：
+                                </th>
+                                <td id="region">羅亞爾河</td>
+                            </tr>
+                            <tr>
+                                <th>年&emsp;&emsp;份：</th>
+                                <td id="vintage">NV</td>
+                            </tr>
+                            <tr>
+                                <th>葡萄品種：</th>
+                                <td id="variety">Chenin Blanc, Chardonny, Ugni Blanc</td>
+                            </tr>
+                            <tr>
+                                <th>酒精濃度：</th>
+                                <td id="alc">11.0%</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="item7">
+                        <img src="./img/ban.png" style="position: relative; height: 40px; top: 8px; left: 23%;"/>
+                        禁&emsp;止&emsp;酒&emsp;駕&emsp;&emsp;&emsp;&emsp;酒&emsp;後&emsp;不&emsp;開&emsp;車&emsp;&emsp;&emsp;&emsp;安&emsp;全&emsp;有&emsp;保&emsp;障
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    <script>
+        new fullpage('#fullpage', {
+	        //options here
+            autoScrolling:true,
+            scrollOverflow: true,
+        });
+
+        //methods
+        fullpage_api.setAllowScrolling(true);
+
+    </script>
+
+    </body>
+
+    <script text="text/javascript" src="./js/act1.js"></script>
+</html>
