@@ -81,6 +81,16 @@ h2, h3, h4{
     grid-row-start: 1;
     grid-row-start: 2;
 
+
+    -webkit-animation: fade 2s 1 400ms;
+    animation: fade 2s 1 400ms;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+    -o-animation-fill-mode: forwards; 
+    -ms-animation-fill-mode: forwards;   
+    -moz-animation-fill-mode: forwards; 
+
+    opacity: 0;
 }
 
 #text1 {
@@ -114,6 +124,15 @@ h2, h3, h4{
 }
 
 #item2 {
+    -webkit-animation: fade 2s 1 400ms;
+    animation: fade 2s 1 400ms;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+    -o-animation-fill-mode: forwards; 
+    -ms-animation-fill-mode: forwards;   
+    -moz-animation-fill-mode: forwards; 
+
+    opacity: 0;
 }
 
 #text2 {
