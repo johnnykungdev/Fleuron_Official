@@ -52,8 +52,10 @@ const vintage = document.getElementById('vintage');
 const variety = document.getElementById('variety');
 const alc = document.getElementById('alc');
 
+wine_pic.src = wine.pic[0];
 
 var i = 0;
+
 
 last.addEventListener('click', function(){
     if (wine.pic[i-1]){
