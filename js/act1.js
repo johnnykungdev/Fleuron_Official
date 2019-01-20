@@ -19,11 +19,11 @@ const wine = {
     ],
 
     pic: [
-          "./img/Marquis_de_la_Tour_Blanc_Brut.png",
-          "./img/Langeron_Macon_Villages_Blanc2012.png",
-          "./img/Aquitania_Rose_2017.png",
-          "./img/Chateau_Bois_Noir_2013.png",
-          "./img/Chateau_Fongaban_2012.png",
+          "./img/Marquis_de_la_Tour_Blanc_Brut.jpg",
+          "./img/Langeron_Macon_Villages_Blanc2012.jpg",
+          "./img/Aquitania_Rose_2017.jpg",
+          "./img/Chateau_Bois_Noir_2013.jpg",
+          "./img/Chateau_Fongaban_2012.jpg",
     ],
 
     text: [

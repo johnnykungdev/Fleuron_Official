@@ -121,7 +121,7 @@ h1 {
     grid-row-start: 2;
 }
 
-#text1, #item2 {
+#item2 {
     -webkit-animation: fade 2s 1 400ms;
     animation: fade 2s 1 400ms;
     animation-fill-mode:forwards;
