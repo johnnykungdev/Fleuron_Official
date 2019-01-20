@@ -1,8 +1,4 @@
-@font-face {
-    font-family: GenJyuuGothic-ExtraLight;
-    src: url('../fonts/GenJyuuGothic-ExtraLight.ttf');
-    format: truetype;
-}
+
 
 html, body {
     height: 670px;
@@ -31,6 +27,11 @@ h1 {
     position: relative;
     top: 15%;
     left: 10%;
+    font-weight: normal;
+}
+
+h2, h3, h4{
+    font-weight: normal;
 }
 
 .headbtn {
@@ -92,7 +93,7 @@ h1 {
 }
 
 #text1 {
-    font-family: GenJyuuGothic-ExtraLight;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     display: inline-block;
     position: relative;
@@ -134,6 +135,7 @@ h1 {
 }
 
 #text2 {
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 60%;
     left: 15.5%;
@@ -216,7 +218,7 @@ h1 {
 
 #subitem1 {
     display: inline-block;
-    font-family: GenJyuuGothic-ExtraLight;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     padding: 20px;
     color: white;
@@ -269,7 +271,7 @@ h1 {
 }
 
 #text3 {
-    font-family: GenJyuuGothic-ExtraLight;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     display: inline-block;
     position: relative;
@@ -329,7 +331,7 @@ h1 {
 }
 
 #item6{
-    font-family: GenJyuuGothic-ExtraLight;
+    font-family: 'Roboto', sans-serif;
     color: gray;
     font-size: 20px;
     grid-column-start: 3;
@@ -389,7 +391,7 @@ h1 {
     grid-row-end: 4;
     background: black;
     color: white;
-    font-family: GenJyuuGothic-ExtraLight;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     padding: 0;
     margin: 0;
