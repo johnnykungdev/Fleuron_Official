@@ -2,7 +2,7 @@
 let more_button = document.querySelector('#more');
 
 more_button.addEventListener('click', function(){
-  window.scrollTo({top: 700, behavior: 'smooth'});
+  window.scrollTo({top: 2000, behavior: 'smooth'});
 });
 
 
