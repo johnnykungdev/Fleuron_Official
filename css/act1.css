@@ -671,13 +671,78 @@ h2, h3, h4{
         grid-column-start: 2;
         grid-row-start: 3;
         grid-row-end: 4;
+    
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 30% 40% 30%;
+    
+        background-image: url('../img/woden3.jpg');
+    }
+
+    #subitem {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        
+        text-align: center;
+        background: rgb(255, 254, 254, 0.7);
     }
 
     #item4 {
-        grid-column-start: 1;
         grid-column-start: 2;
+        grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
+
+        text-align: center;
+    }
+
+    #text3 {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+    }
+
+    #woden {
+        font-size: 70px;
+        margin-bottom: 25px;
+    }
+
+    h4 {
+        font-size: 45px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #loc_btn {
+    
+        color: black;
+        background: transparent;
+        border: 2px solid black;
+        padding: 14px 40px;
+        text-align: center;
+        font-size: 40px;
+        margin: 0;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: white; 
+        outline: 0;
+    
+        display: inline-block;
+        position: absolute;
+        top: 83%;
+        left: 40%;
+    }
+    
+    #loc_btn:hover {
+        background-color: black;
+        color: white;
     }
     
 }
