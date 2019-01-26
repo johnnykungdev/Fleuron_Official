@@ -134,19 +134,19 @@ h1 {
 }
 
 .text {
-    height: 100%;
+    height: 60%;
     font-size: 1.3vw;
     margin: 0;
+    margin-top: 20%;
     font-family: 'Noto Sans TC', sans-serif;
     line-height: 3vw;
     text-align: justify;
     display: inline-block;
 }
 
-#a_act {
+#act_btn {
     display: inline-block;
     position: relative;
-    top: 80%;
     float: right;
 }
 
