@@ -492,7 +492,7 @@ h2, h3, h4{
         background-color: black; 
         outline: 0;
         position: relative;
-        top: 15%;
+        top: 10%;
         left: 42%;
         margin-right: 5%;
     }
@@ -745,8 +745,8 @@ h2, h3, h4{
     
         display: inline-block;
         position: absolute;
-        top: 83%;
-        left: 40%;
+        top: 86%;
+        left: 38%;
     }
     
     #loc_btn:hover {
