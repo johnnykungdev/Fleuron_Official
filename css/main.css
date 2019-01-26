@@ -241,7 +241,7 @@ h1 {
 
         display: grid;
         grid-template-columns: 10% 80% 10%;
-        grid-template-rows: 10% 30% 50% 10%;
+        grid-template-rows: 10% 20% 60% 10%;
     }
 
     #fleuron_img {
@@ -251,7 +251,7 @@ h1 {
         grid-row-end: 3;
 
         display: grid;
-        grid-template-rows: 30% 40% 30%;
+        grid-template-rows: 10% 40% 50%;
         grid-template-columns: 100%;
 
     }

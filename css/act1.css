@@ -421,6 +421,13 @@ h2, h3, h4{
     text-align: center;
 }
 
+#ban_img {
+    position: relative; 
+    height: 40px; 
+    top: 8px; 
+    left: 23%;
+}
+
 
 @-webkit-keyframes fade {
     0% {
@@ -656,8 +663,6 @@ h2, h3, h4{
         position: relative;
         top: 200px;
         left: 0;
-
-
     }
 
     .container2 {
@@ -754,7 +759,7 @@ h2, h3, h4{
         width: 100%;
         display: grid;
         grid-template-columns: 10% 80% 10%;
-        grid-template-rows:  10% 5% 35% 42.5% 7.5%;
+        grid-template-rows:  10% 5% 35% 45% 5%;
         position: absolute;
         top: 0;
     }
@@ -778,7 +783,16 @@ h2, h3, h4{
         grid-column-end: 4;
         grid-row-start: 5;
         grid-row-end: 6;
+
+        font-size: 25px;
     }
+
+    #ban_img {
+        position: relative;
+        top: 10px;
+        left: 250px;
+    }
+
 
     #last_btn {
         display: inline-block;
@@ -798,7 +812,6 @@ h2, h3, h4{
         background-color: white; 
         outline: 0;
     
-        float: left;
         position: absolute;
         top: 200px;
         left: 50px;
