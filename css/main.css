@@ -302,6 +302,7 @@ h1 {
         text-transform: uppercase;
         background-color: white; 
         outline: 0;
+        margin-top: 50px;
     }
 
     #activity:hover {
