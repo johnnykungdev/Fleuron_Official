@@ -698,6 +698,7 @@ h2, h3, h4{
         background: rgb(255, 254, 254, 0.7);
         z-index: 5;
         overflow: auto;
+        height: 100%;
     }
 
     #item4 {
