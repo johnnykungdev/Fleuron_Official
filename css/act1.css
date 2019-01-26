@@ -191,7 +191,7 @@ h2, h3, h4{
     color: black;
     background: transparent;
     border: 2px solid black;
-    padding: 14px 41px;
+    padding: 14px 40px;
     text-align: justify;
     font-size: 14px;
     margin: 0;
@@ -202,6 +202,7 @@ h2, h3, h4{
     text-transform: uppercase;
     background-color: white; 
     outline: 0;
+    word-spacing: 24.75px;
 }
 
 #act_btn3:hover {
@@ -625,10 +626,11 @@ h2, h3, h4{
     #act_btn3 {
         display: block;
     
+        width: 
         color: black;
         background: transparent;
         border: 2px solid black;
-        padding: 14px 41px;
+        padding: 14px 40px;
         text-align: justify;
         font-size: 40px;
         margin: 0;
@@ -639,6 +641,7 @@ h2, h3, h4{
         text-transform: uppercase;
         background-color: white; 
         outline: 0;
+        word-spacing: 71.9px;
 
     }
     
@@ -679,7 +682,7 @@ h2, h3, h4{
         background-image: url('../img/woden3.jpg');
     }
 
-    #subitem {
+    #subitem2 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
@@ -687,6 +690,7 @@ h2, h3, h4{
         
         text-align: center;
         background: rgb(255, 254, 254, 0.7);
+        z-index: 5;
     }
 
     #item4 {
@@ -745,4 +749,101 @@ h2, h3, h4{
         color: white;
     }
     
+    .container3 {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows:  10% 5% 35% 42.5% 7.5%;
+        position: absolute;
+        top: 0;
+    }
+
+    #item5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #item6 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    #item7 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    #last_btn {
+        display: inline-block;
+    
+        color: black;
+        background: transparent;
+        border: 2px solid black;
+        padding: 14px 41px;
+        text-align: justify;
+        font-size: 40px;
+        margin: 0;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: white; 
+        outline: 0;
+    
+        float: left;
+        position: absolute;
+        top: 200px;
+        left: 50px;
+    }
+
+    #next_btn {
+        display: block;
+    
+        color: black;
+        background: transparent;
+        border: 2px solid black;
+        padding: 14px 41px;
+        text-align: justify;
+        font-size: 40px;
+        margin: 0;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: white; 
+        outline: 0;
+    
+        float: right;
+        position: absolute;;
+        top: 200px;
+        left: 725px;
+    }
+    
+    #next_btn:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .wine_title {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #wine_text {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #wine_table {
+        font-size: 30px;
+    }
 }
