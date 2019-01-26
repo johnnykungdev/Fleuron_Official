@@ -695,7 +695,7 @@ h2, h3, h4{
         grid-row-end: 3;
         
         text-align: center;
-        background: rgb(255, 254, 254, 0.7);
+        background: rgba(255, 254, 254, 0.7);
         z-index: 5;
         overflow: auto;
         height: 100%;
